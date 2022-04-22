@@ -35,7 +35,7 @@ A execução do projeto é feita através do comando **php -S localhost:8000 -t 
 
 ## Detalhes de Execução
 ### Efetuar liquidação da transferência ( POST)
-####PATH: /paymentOrders/
+#### PATH: /paymentOrders/
 Endpoint: http://localhost:8000/paymentOrders
 
 O request esperado é:
@@ -102,7 +102,7 @@ Para data de liquidação superior à atual:
     **status code = 201**
 
 ### Efetuar consulta da liquidação da transferência (GET)
-####PATH: /paymentOrders/{internalId}
+#### PATH: /paymentOrders/{internalId}
 
 Para realizar a consulta da liquidação da transferência, basta informar o internalId (código retornado no response, após a inserção do registro ) no endpoint.
 Exemplo: http://localhost:8000/paymentOrders/1
